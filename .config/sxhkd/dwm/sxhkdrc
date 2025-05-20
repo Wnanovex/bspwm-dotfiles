@@ -1,0 +1,35 @@
+super + w
+	firefox
+
+super + b
+	brave-browser
+
+super + period
+	code --new-window
+
+super + p
+	dmenu_run
+
+super + shift + p
+	$HOME/.config/rofi/scripts/powermenu/./powermenu.sh
+
+XF86MonBrightnessUp
+	brightnessctl set +5%
+XF86MonBrightnessDown
+	brightnessctl set 5%-
+
+XF86AudioRaiseVolume
+	pamixer -i 4
+XF86AudioLowerVolume
+	pamixer -d 4
+XF86AudioMute
+	pamixer -t
+
+super + z
+	systemctl suspend ; betterlockscreen -l
+
+super + shift + l
+	betterlockscreen -l
+
+super + d
+	dolphin
