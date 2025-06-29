@@ -4,6 +4,8 @@ case $- in
     *) return;;
 esac
 
+fastfetch
+
 # Path to your oh-my-bash installation.
 export OSH=$HOME'/.oh-my-bash'
 
